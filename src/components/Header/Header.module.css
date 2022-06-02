@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 64px;
+	background-color: rgb(91, 154, 221);
+}
+
+.menu {
+	display: flex;
+	justify-content: left;
+	padding: 20px;
+	list-style: none;
+	color: white;
+}
+
+.menu li {
+	margin-right: 50px;
+	cursor: pointer;
+}
+.menu li:hover {
+	background-color: red;
+}
+
+/* .allCats {
+	height: inherit;
+	background-color: yellow;
+} */
